@@ -1,43 +1,48 @@
-# COVID-19 County Report Program
+# COVID-19 County Data Analysis Project
 
-This project analyzes COVID-19 case data at the U.S. county level using publicly available datasets from Johns Hopkins University.  
-It generates statistical summaries, time-series visualizations, and an interactive choropleth map based on user-selected counties.
+## Overview
+This project analyzes U.S. county-level COVID-19 case data to identify regional trends and patterns from 2020 to 2022. The analysis combines time-series exploration and geospatial visualization to better understand how COVID-19 impacted different counties across the United States.
 
-## Project Overview
-The program allows users to:
-- Select a U.S. county (and state if needed)
-- View COVID-19 case trends over time
-- Calculate average and total new cases by year (2020–2022)
-- Visualize cumulative cases using charts and geospatial maps
+## Objective
+- Perform exploratory data analysis (EDA) on county-level COVID-19 data
+- Analyze cumulative and average case trends over time
+- Visualize regional differences using geospatial mapping
+- Communicate insights through charts and interactive maps
 
 ## Data Sources
-- Johns Hopkins University COVID-19 Time Series Data
+- Johns Hopkins University COVID-19 Time Series Data  
 - U.S. County Geometry Shapefiles (GeoJSON)
 
-## Tools & Libraries
-- Python
-- pandas
-- geopandas
-- matplotlib
-- folium
-- contextily
-- mapclassify
+## Tools & Technologies
+- Python  
+- Pandas  
+- GeoPandas  
+- Matplotlib  
+- Folium  
+- Contextily  
+- MapClassify  
+- Jupyter Notebook  
+- Git/GitHub  
 
-## Key Features
-- Data cleaning and reshaping using pandas
-- Time-series analysis of COVID-19 cases
-- County-level summary statistics
-- Line chart visualization of case trends
-- Interactive choropleth map by county
+## Key Analysis Tasks
+- Data cleaning, reshaping, and transformation using Pandas
+- Time-series analysis of COVID-19 case trends (2020–2022)
+- Calculation of cumulative and average new cases by county
+- Geospatial analysis to compare COVID-19 impact across regions
+- Visualization of findings using charts and interactive choropleth maps
+
+## Results & Insights
+- Identified significant variation in COVID-19 case counts between counties
+- Observed distinct time-based trends in cumulative cases across regions
+- Created visual insights that highlight geographic differences in COVID-19 impact
 
 ## How to Run
-1. Open the Jupyter Notebook (`.ipynb`)
-2. Run all cells
-3. Enter a county name when prompted
-4. View statistical output, charts, and maps
+1. Open the Jupyter Notebook (.ipynb)
+2. Run all cells in order
+3. Enter a county name when prompted to generate analysis and visualizations
 
 ## Output
-- Console-based COVID-19 summary report
-- Line chart showing cumulative cases
+- Statistical summary of COVID-19 cases by county
+- Line charts illustrating cumulative case trends
 - Interactive county-level choropleth map
 
